@@ -1,0 +1,12 @@
+variable "aws_region" {}
+variable "public_subnets" {}
+variable "public_sg" {}
+variable "target_port" {}
+variable "target_protocol" {}
+variable "vpc_id" {}
+variable "lb_healty_threshold" {}
+variable "lb_unhealty_threshold" {}
+variable "lb_timeout" {}
+variable "lb_interval" {}
+variable "listener_port" {}
+variable "listener_protocol" {}
